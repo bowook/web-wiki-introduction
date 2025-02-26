@@ -156,11 +156,13 @@ footer p {
 .images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: 200px;
 }
 
 .images img {
-  width: 25%;
+  width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover; 
+
 }
 
