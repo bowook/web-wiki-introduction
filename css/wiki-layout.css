@@ -193,7 +193,18 @@ footer p {
   height: 50px;
   width: 70px;
   border: none;
+}
+
+#reset {
   background-color: lightgray;
+  color: black;
+  font-weight: bold;
+}
+
+#button {
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
 }
 
 .comment-item {
